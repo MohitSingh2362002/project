@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Inter:wght@300&family=Open+Sans&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Inter:wght@300&family=Open+Sans&family=Poppins:ital,wght@1,300&display=swap');
+
+:root {
+    --main-bg-color: rgb(40, 116, 240);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+nav ul {
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 25px;
+    width: 148px;
+    margin: 50px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+.container {
+    min-height: calc(100vh - 58px - 10vh);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    height: 23px;
+    width: 400px;
+    border-radius: 2px;
+    margin: 0 16px 0 58px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 900;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login input {
+    height: 23px;
+    width: 34px;
+    border-radius: 2px;
+    margin: 0 16px 0 58px;
+    padding: 0 12px;
+}
+
+select {
+    width: 54px;
+    background: rgb(40, 116, 240);
+    color: white;
+    border-radius: 2px;
+    border: rgb(40, 116, 240);
+    font-weight: bolder;
+}
+select:hover{
+    color: black;
+    font-weight: bolder;
+}
+.slider {
+    margin: auto;
+    width: 80vw;
+    height: 26vw;
+    margin: 12px auto;
+
+}
+
+.card h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.slider img {
+    width: 80vw;
+    height: 400px;
+    }
+
+main {
+    background-color: rgb(236, 234, 234);
+}
+
+.menu {
+    max-width: 89vw;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    padding: 6px;
+}
+
+.menu img {
+    height: 70px;
+    width: 83px;
+}
+
+.card {
+    max-width: 71vw;
+    margin: auto;
+    background-color: white;
+    height: 250px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards img {
+    height: 120px;
+    width: 120px;
+}
+
+.watches img {
+    width: 40vw;
+}
+
+.cards line {
+    text-align: center;
+    font-family: Roboto,Arial,sans-serif;
+}
+.menuitem{
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.carditem {
+    padding: 0 12px;
+}
+
+.lines {
+    width: 10vw;
+}
+
+footer {
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    align-items: center;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
